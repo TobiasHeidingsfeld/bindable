@@ -1,6 +1,6 @@
 name: bindable
-description: A library for powerful databinding in flutter.
-version: 0.0.1
+description: Bindable is a state managment library that is powerful and easy to use. It will become extendable in the future and get many useful plugins to do complex tasks in a simple plugin.
+version: 0.1.0
 author: Tobias Heidingsfeld <Tobias@redfoxcode.com>
 homepage: https://www.redfoxcode.com/
 
