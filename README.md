@@ -13,7 +13,7 @@ int get counter => get("counter", 0);
 set counter(int v) => set("counter", v);
 ~~~~
 
-Then every property of these Bindable Models will update everywhere in your View automatically when you use a `BindingWidget` or the `Binding` Builder to have mor granular control.
+Then every property of these Bindable Models will update everywhere in your View automatically when you use a `BindingWidget` or the `Binding` Builder to have more granular control.
 
 The classic Flutter counter example:
 
