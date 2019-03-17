@@ -36,7 +36,7 @@ class MyApp extends BindingWidget with Bindable {
 }
 ~~~~
 
-In a real world
+In a real world application we would seperate Model, Logic and View.
 
 ## Todos and Plans
 
