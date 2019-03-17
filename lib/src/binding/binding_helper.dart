@@ -11,7 +11,10 @@ class BindingHelper {
   static void rebuildNewBindableWidget(State state) {
     _buildStates.add(state);
     _activeWidgetState = state;
-    getBindingHelper().bindingSubscriptions.values.forEach((sub) => sub.properties.clear());
+    getBindingHelper()
+        .bindingSubscriptions
+        .values
+        .forEach((sub) => sub.properties.clear());
   }
 
   static void widgetListensTo(Bindable bindable, String name) {
@@ -32,7 +35,8 @@ class BindingHelper {
     }
   }
 
-  static BindingSubscription getBindingSubscription(BindingConnection helper, Bindable bindable) {
+  static BindingSubscription getBindingSubscription(
+      BindingConnection helper, Bindable bindable) {
     var sub = helper.bindingSubscriptions[bindable];
     if (sub == null) {
       sub = BindingSubscription();
